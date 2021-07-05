@@ -19,7 +19,8 @@ function PerformCheck() {
   FirstNameBorder.style.borderColor = "hsl(248, 32%, 49%)";
   FirstNameError.style.display = "none";
   FirstNameEmpty.style.display = "none";
-  if (FirstName.length > 2) {
+  var RegexFirstName = /^[a-zA-Z]+$/;
+  if (RegexFirstName.test(FirstName) === false) {
     FirstNameError.style.display = "block";
     FirstNameErrorIcon.style.display = "block";
     FirstNameBorder.style.borderColor = " hsl(0, 100%, 74%) ";
@@ -42,7 +43,8 @@ function PerformCheck() {
   LastNameError.style.display = "none";
   LastNameEmpty.style.display = "none";
 
-  if (LastName.length > 2) {
+  var RegexLastName = /^[a-zA-Z]+$/;
+  if (RegexLastName.test(LastName) === false) {
     LastNameError.style.display = "block";
     LastNameErrorIcon.style.display = "block";
     LastNameBorder.style.borderColor = " hsl(0, 100%, 74%) ";
