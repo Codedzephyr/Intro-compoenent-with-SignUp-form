@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub Repository](https://github.com/Codedzephyr/Intro-compoenent-with-SignUp-form)
-- Live Site URL: [Live Site URL](https://pensive-bell-a5d408.netlify.app/)
+- Live Site URL: [Live Site URL](https://kind-lamarr-2c7891.netlify.app/)
 
 ## My process
 
