@@ -96,6 +96,8 @@ input[type="text"] {
   background-color: whitesmoke;
   border-radius: 4px;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  outline: none;
 }
 
 #claim {
@@ -110,6 +112,8 @@ input[type="text"] {
   font-size: 16px;
   text-transform: uppercase;
   font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 2px;
 }
 
 form {
